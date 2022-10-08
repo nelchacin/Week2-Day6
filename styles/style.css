@@ -1,0 +1,17 @@
+  /* Estilos a efecto demostrativo, NUNCA se modifica el modelo de caja de contenedores, filas ni columnas de Bootstrap */
+
+  .container {
+      margin-bottom: 200px;
+
+  }
+
+  .row {
+      margin: 10px 0;
+  }
+
+  .row div[class*='col'] {
+      padding: 10px;
+      background: BurlyWood;
+      text-align: center;
+      border: 1px solid;
+  }
